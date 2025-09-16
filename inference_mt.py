@@ -52,7 +52,7 @@ GEN_KW = dict(
     temperature=0.7,
     stop=None
 )
-OUT_DIR = r"C:\HWiNFO_logs\mtbench2"
+OUT_DIR = r"C:\HWiNFO_logs\mtbench_record"
 
 # 关闭不稳定优化（按你之前的建议）
 os.environ["LLAMA_CUDA_USE_GRAPHS"] = "0"
@@ -356,5 +356,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
