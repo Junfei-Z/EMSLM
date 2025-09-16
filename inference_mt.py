@@ -24,7 +24,7 @@ from llama_cpp import Llama
 # ====== 你可以改的默认配置 ======
 HWINFO_EXE = r"C:\Program Files\HWiNFO64\HWiNFO64.exe"
 HWINFO_DIR = r"C:\Program Files\HWiNFO64"
-DATA_PATH = r"C:\Users\Administrator\Desktop\project\energy and inference quality modeling on device SLM\question.jsonl.txt"
+DATA_PATH = r"C:\Users\Administrator\Desktop\project\energy and inference quality modeling on device SLM\questionset.jsonl.txt"
 POLL_MS    = 100          # 100ms 采样
 WARMUP     = True         # 每题前做 1 token 预热
 KEEP_TIME  = True         # 导出时保留 Timestamp 列
@@ -356,4 +356,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
