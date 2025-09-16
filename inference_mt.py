@@ -30,9 +30,14 @@ WARMUP     = True         # 每题前做 1 token 预热
 KEEP_TIME  = True         # 导出时保留 Timestamp 列
 TURN_INDEX = 1            # 默认使用第 1 轮问题（human 第一次提问）
 
+# 替换成你的实际模型路径
 # MODEL_PATH = r"E:\SLM\Q6\Qwen3-4B-Q6_K.gguf"
-# MODEL_PATH = r"E:\SLM\Q6\dolly-v2-3b.Q6_K.gguf"  # ←← 替换成你的实际模型路径
-MODEL_PATH = r"E:\SLM\Q6\gemma-2-2b-it-Q6_K.gguf"
+# MODEL_PATH = r"E:\SLM\Q6\dolly-v2-3b.Q6_K.gguf"  
+# MODEL_PATH = r"E:\SLM\Q6\gemma-2-2b-it-Q6_K.gguf"
+# MODEL_PATH = r"E:\SLM\Q8\Qwen3-4B-Q8_0.gguf"
+# MODEL_PATH = r"E:\SLM\Q8\dolly-v2-3b.Q8_0.gguf"
+MODEL_PATH = r"E:\SLM\Q8\gemma-2-2b-it-Q8_0.gguf"
+
 LLAMA_KW = dict(
     n_gpu_layers=48,
     n_ctx=2048,
@@ -351,3 +356,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
